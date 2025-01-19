@@ -68,11 +68,13 @@ Alors n'attendez plus et téléchargez notre app pour devenir le nouveau Johnny 
 
 ---
 
-Auteurs : 
-HEARD Baptiste
-RENAUD François
-
 ## Décision finale
 Pour garantir un minimum de fonctionnalité, nous avons décidé :
 - De ne pas gérer les timestamps au milieu des phrases.
 - De synchroniser le curseur uniquement en fonction des timestamps de début et de fin.
+
+---
+
+Auteurs : 
+HEARD Baptiste
+RENAUD François
