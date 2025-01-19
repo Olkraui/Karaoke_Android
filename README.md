@@ -43,7 +43,7 @@ Alors n'attendez plus et téléchargez notre app pour devenir le nouveau Johnny 
 4. **Synchronisation des paroles avec l'audio** :
    - Un **timer** est lancé au début de la lecture de l'audio pour afficher les paroles en fonction des timestamps.
    - Une expression régulière (**Regex**) est utilisée pour analyser les timestamps dans les paroles et déterminer le début et la fin de chaque ligne.
-   - Les paroles sont affichées progressivement, lettre par lettre, avec un effet d'éclaircissement.
+   - Les paroles sont affichées ligne par ligne, et le curseur passe surligne chacun des lettres avec un effet d'éclaircissement.
 
 ---
 
