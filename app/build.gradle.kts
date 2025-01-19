@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.projet_android"
+    namespace = "fr.enssat.singwithme.baptiste_francois"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.projet_android"
+        applicationId = "fr.enssat.singwithme.baptiste_francois"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

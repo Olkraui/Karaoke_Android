@@ -1,4 +1,4 @@
-package com.example.baptiste_francois
+package fr.enssat.singwithme.baptiste_francois
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.baptiste_francois
+package fr.enssat.singwithme.baptiste_francois
 
 import org.junit.Test
 

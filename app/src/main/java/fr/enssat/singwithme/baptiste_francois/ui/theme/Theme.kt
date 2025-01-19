@@ -1,4 +1,4 @@
-package com.example.baptiste_francois.ui.theme
+package fr.enssat.singwithme.baptiste_francois.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

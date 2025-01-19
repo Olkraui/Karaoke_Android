@@ -1,4 +1,4 @@
-package com.example.baptiste_francois.recupererMusique
+package fr.enssat.singwithme.baptiste_francois.recupererMusique
 
 data class Song(
     val name: String,

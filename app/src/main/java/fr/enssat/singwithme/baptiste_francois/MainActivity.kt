@@ -1,4 +1,4 @@
-package com.example.baptiste_francois
+package fr.enssat.singwithme.baptiste_francois
 
 import android.content.Intent
 import android.os.Bundle
@@ -19,9 +19,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.Alignment
-import com.example.baptiste_francois.recupererMusique.ApiService
-import com.example.baptiste_francois.recupererMusique.Song
-import com.example.baptiste_francois.ui.theme.Projet_androidTheme
+import fr.enssat.singwithme.baptiste_francois.recupererMusique.ApiService
+import fr.enssat.singwithme.baptiste_francois.recupererMusique.Song
+import fr.enssat.singwithme.baptiste_francois.ui.theme.Projet_androidTheme
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit

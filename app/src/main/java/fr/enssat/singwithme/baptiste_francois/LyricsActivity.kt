@@ -1,4 +1,4 @@
-package com.example.baptiste_francois
+package fr.enssat.singwithme.baptiste_francois
 
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
@@ -23,8 +23,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.baptiste_francois.recupererMusique.ApiService
-import com.example.baptiste_francois.ui.theme.Projet_androidTheme
+import fr.enssat.singwithme.baptiste_francois.recupererMusique.ApiService
+import fr.enssat.singwithme.baptiste_francois.ui.theme.Projet_androidTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
@@ -133,8 +133,8 @@ class LyricsActivity : ComponentActivity() {
         }
     }
 
-    private fun parseLyrics(rawLyrics: String): List<LyricsActivity.LyricLine> {
-        val lines = mutableListOf<LyricsActivity.LyricLine>()
+    private fun parseLyrics(rawLyrics: String): List<LyricLine> {
+        val lines = mutableListOf<LyricLine>()
         val regexDebut = Regex("""\{ (\d+):(\d+) \}(.*)""")
         val matchesDebut = regexDebut.findAll(rawLyrics).toList()
         var endTime = 0
@@ -173,7 +173,7 @@ class LyricsActivity : ComponentActivity() {
             val text = textWithTime.replace(regex, "").trim()
 
             lines.add(
-                LyricsActivity.LyricLine(
+                LyricLine(
                     text = text,
                     textWithTime = textWithTime,
                     startTime = startTime,
@@ -192,7 +192,7 @@ class LyricsActivity : ComponentActivity() {
     )
 
     @Composable
-    fun LyricsScreen(lyrics: List<LyricsActivity.LyricLine>) {
+    fun LyricsScreen(lyrics: List<LyricLine>) {
         var currentLineIndex by remember { mutableStateOf(-1) } // -1 signifie aucune ligne active
         var elapsedTime by remember { mutableStateOf(0L) } // Temps écoulé en millisecondes
         var lineProgress by remember { mutableStateOf(0f) } // Progression dans la ligne actuelle (0f à 1f)

@@ -1,4 +1,4 @@
-package com.example.baptiste_francois.recupererMusique
+package fr.enssat.singwithme.baptiste_francois.recupererMusique
 
 import okhttp3.ResponseBody
 import retrofit2.http.GET
