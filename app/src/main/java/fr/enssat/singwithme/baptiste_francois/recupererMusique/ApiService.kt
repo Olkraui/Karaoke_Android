@@ -1,4 +1,4 @@
-package com.example.projet_android.recupererMusique
+package com.example.baptiste_francois.recupererMusique
 
 import okhttp3.ResponseBody
 import retrofit2.http.GET

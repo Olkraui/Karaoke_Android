@@ -1,4 +1,4 @@
-package com.example.projet_android.ui.theme
+package com.example.baptiste_francois.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

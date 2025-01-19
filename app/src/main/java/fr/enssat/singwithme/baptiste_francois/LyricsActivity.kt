@@ -1,4 +1,4 @@
-package com.example.projet_android
+package com.example.baptiste_francois
 
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
@@ -23,8 +23,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.projet_android.recupererMusique.ApiService
-import com.example.projet_android.ui.theme.Projet_androidTheme
+import com.example.baptiste_francois.recupererMusique.ApiService
+import com.example.baptiste_francois.ui.theme.Projet_androidTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
